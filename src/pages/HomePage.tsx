@@ -324,7 +324,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                           <span className="text-[var(--muted-foreground)] shrink-0">
                             {isEn ? s.labelEn || s.label : s.label}:
                           </span>
-                          <span className="font-semibold text-[var(--heading)] truncate text-end tabular-nums">
+                          <span className="font-semibold text-[var(--heading)] text-end tabular-nums leading-snug">
                             {isEn ? s.valueEn || s.value : s.value}
                           </span>
                         </div>

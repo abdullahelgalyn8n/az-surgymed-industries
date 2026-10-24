@@ -64,7 +64,6 @@ export const Header: React.FC<HeaderProps> = ({
     { label: isEn ? 'Sectors' : 'القطاعات', path: '/sectors' },
     { label: isEn ? 'Articles' : 'المقالات', path: '/articles' },
     { label: isEn ? 'Catalog' : 'الكتالوج', path: '/catalog' },
-    { label: isEn ? 'Search' : 'البحث', path: '/search' },
     { label: isEn ? 'Contact' : 'تواصل معنا', path: '/contact' },
   ];
 
